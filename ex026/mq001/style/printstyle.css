@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Impressão */
+
+*{
+    margin: 0;
+    font-family: cursive, Helvetica, sans-serif;
+}
+
+header {
+  display: none;   
+
+}
+
+header ul, h1 {
+    /* display: flex; */
+    list-style: none;
+    text-align: center;
+   
+    
+}
+
+header ul li {
+    display: inline-block;
+    background-color: rgb(102, 102, 102);
+    padding: 0.2em;
+    
+}
+
+
+main article {
+    padding: 0.5em;
+    max-width: 100vw;
+    margin: auto;
+}
+
+
+main::after {
+
+content:  "Esta página foi impressa via www.thiagomadeira.com.br"
+
+
+
+}
