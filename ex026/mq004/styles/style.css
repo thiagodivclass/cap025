@@ -8,6 +8,7 @@
 }
 body {
     background-color: #d3d3d3;
+    padding-bottom: 30px;
 }
 
 header {
@@ -53,6 +54,7 @@ header a:hover {
     text-align: center;
     color: #fff;
     cursor: pointer;
+    margin-bottom: 10px;
 }
 
 #burger:hover {
