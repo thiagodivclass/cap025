@@ -1,3 +1,53 @@
 @charset "UTEF-8";
 
 /* ------------- Demais mídias --------------*/
+
+/*Impressão*/
+@media print {
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+    main img#phone {display: none;}
+    main img#tablet {display: none;}
+    main img#desk {display: none;}
+    main img#tv {display: none;}
+    main img#print {display: block;}
+    
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    body { background-image: url("../imagens/back-tablet.jpg");
+    
+    }
+    main img#phone {display: none;}
+    main img#tablet {display: block;}
+    main img#desk {display: none;}
+    main img#tv {display: none;}
+    main img#print {display: none;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    body {
+        background-image: url("../imagens/back-pc.jpg");
+    }
+    main img#phone {display: none;}
+    main img#tablet {display: none;}
+    main img#desk {display: block;}
+    main img#tv {display: none;}
+    main img#print {display: none;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url("../imagens/back-tv.jpg");
+    }
+    main img#phone {display: none;}
+    main img#tablet {display: none;}
+    main img#desk {display: none;}
+    main img#tv {display: block;}
+    main img#print {display: none;}
+  
+}
+
