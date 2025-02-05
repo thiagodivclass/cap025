@@ -82,3 +82,26 @@ main p {
     margin-bottom: 20px;
     text-indent: 20px;
 }
+
+#idesk {
+    display: none;
+}
+
+
+#idesk img {
+ width: 80vw;
+}
+
+#eyes {
+    display: block;
+    background-color: #303030;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#eyes:hover {
+    background-color: #949494;
+    color: #000;
+}

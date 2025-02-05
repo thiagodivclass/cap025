@@ -29,10 +29,15 @@
             <h2>Teste de Menu responsivo</h2>
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem deleniti rerum nulla odit ab explicabo doloremque dignissimos, pariatur, quia consectetur cumque alias incidunt, quam repellendus. Aspernatur maiores iste quia at Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel architecto facere cupiditate, incidunt doloremque voluptates sed quos, temporibus eius mollitia asperiores atque cumque quia non ea voluptas labore! Totam, ipsum.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti at dignissimos, aspernatur modi repellat maxime sit facere officia, debitis eos molestiae veritatis a facilis laboriosam exercitationem quam? Sequi accusantium quisquam magni nesciunt atque. Quos voluptas harum quasi quis laudantium? Dolore, perspiciatis velit! Obcaecati illum dolor distinctio deleniti nemo at eligendi quaerat eos in corrupti soluta eum, velit esse, laborum eius, iure a magnam quos minima quas mollitia ab? Molestiae vel, sunt sed odit eius porro veniam beatae quaerat a possimus deserunt sapiente laborum! Maxime nemo tempora maiores placeat reprehenderit expedita!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti at dignissimos, aspernatur modi repellat maxime sit facere officia, debitis eos molestiae veritatis a facilis laboriosam exercitationem quam? Sequi accusantium quisquam magni nesciunt atque. Quos voluptas harum quasi quis</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus corporis quo cumque eius blanditiis inventore fugiat, commodi dolore iure iste necessitatibus in autem, magnam, vitae itaque dolores sit dolorum a eaque! Deserunt ipsam odit at mollitia, laudantium iure possimus debitis quia architecto, aut culpa ad molestiae omnis. Quasi, nostrum impedit nesciunt repellendus modi reiciendis quia tenetur eum dolore. Unde, earum.</p>
 
         </article>
+        <h2 id="hdesk">Desktop</h2>
+        <span class="material-icons" id="eyes" onclick="clickEyes()">remove_red_eye</span>
+        <div id="idesk">
+            <img src="imagens/back-pc.jpg" alt="imagem de um computador" title="imagem de um computador">
+        </div>
     </main>
 
     <script>
@@ -43,6 +48,15 @@
           else {
             itens.style.display = 'block'
           }
+        }
+
+        function clickEyes() {
+            if (idesk.style.display == 'block') {
+                idesk.style.display = 'none'
+            }
+            else {
+                idesk.style.display = 'block'
+            }
         }
 
     </script>
