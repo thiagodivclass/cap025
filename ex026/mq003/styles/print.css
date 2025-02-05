@@ -1,0 +1,9 @@
+body {
+    background-image: url(../imagens/back-print.jpg); }
+   
+ img#phone {display: none;}
+ img#tablet {display: none;}
+ img#desk {display: none;}
+ img#tv {display: none;}
+ img#print {display: block;}
+

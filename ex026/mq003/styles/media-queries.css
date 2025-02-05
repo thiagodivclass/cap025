@@ -3,17 +3,10 @@
 /* ------------- Demais mídias --------------*/
 
 /*Impressão*/
-@media print {
-    body {
-        background-image: url(../imagens/back-print.jpg);
-    }
-    main img#phone {display: none;}
-    main img#tablet {display: none;}
-    main img#desk {display: none;}
-    main img#tv {display: none;}
-    main img#print {display: block;}
+
     
-}
+   
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     body { background-image: url("../imagens/back-tablet.jpg");
